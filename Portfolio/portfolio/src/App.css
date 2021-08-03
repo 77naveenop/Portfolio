@@ -1,0 +1,110 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.root{
+  --primary-white: #fff;
+}
+/****************NAVBAR*************/
+.logo{
+  margin: 0.6rem;
+  margin-left: 2rem;
+  
+}
+/*****menu link*****/
+ nav a.nav-link{
+   /* font-weight: 600; */
+   letter-spacing: 0.1rem;
+   cursor: pointer;
+   margin-right: 2rem !important;
+ }
+
+ .navbar-nav > li > a{
+   font-size: 1rem;
+ color: var(--primary-white) !important;
+ margin-left: 3rem;
+ margin-right: 2rem;
+ }
+
+ .navbar-brand{
+   max-width: 40rem !important;
+   padding: 0 !important;
+   height: 5rem !important;
+ }
+
+ .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+   border-top: 0.125rem solid rgb(97, 34, 34) !important;
+ }
+
+ /**************Header*************/
+
+ .header-wraper{
+   position: relative;
+   background: url(BackCover.jpeg)no-repeat;
+   background-size: cover;
+   height: 90vh;
+   background-position: center;
+ }
+
+ .main-info{
+   display: flex;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family: 'Roboto Condensed', sans-serif !important;
+   
+ }
+
+ .main-info h1 {
+   color: #fff !important;
+   text-transform: uppercase;
+   text-shadow: 0.125rem 0.125rem rgb(97, 34, 34);
+ }
+
+ /*************typed test***********/
+
+ .typed-text{ 
+   font-size: 1.7rem;
+   color:rgb(149, 84, 84);
+}
+
+/************button main offer***********/
+.btn-main-offer{
+  border: 1px solid black;
+  padding: 0.62rem 0.7rem 0.7rem 0.7rem;
+  color:black;
+  border-radius: 0.500rem;
+  margin-top: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+ 
+}
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color:rgb(119, 80, 80) ;
+  transition: 0.2s ease-in-out;
+  color: white;
+}
+
+
+@media(max-width:768px){
+  .main-info h1{
+    font-size: 1.6rem !important;
+  }
+}
+@media(max-width:768px){
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
+ 
