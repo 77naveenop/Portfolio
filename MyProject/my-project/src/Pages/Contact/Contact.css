@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+.box1{
+    /* background-color: white !important; */
+    /* border: 2px solid rgb(243, 231, 231); */
+    width: 50%;
+    height: 13rem;
+    float: left;
+    margin: 5px;
+    margin-left: 10px;
+    
+}
+.text3{
+    
+    padding-top: 30px;
+}
+
+.facebook{
+    margin: 5px;
+}
+.ig-icon{
+    margin: 5px;
+}
+.Ln-icon{
+    margin: 5px;
+}
+.heading3{
+    padding-top: 25px;
+}
+.heading2{
+padding-top: 8px;
+
+}
+.head3{
+    /* text-align: center; */
+    padding: 5px;
+}
+
+/* .icon-box{
+    padding-top: 45px;
+} */
+
+.main-box{
+    color: wheat;
+    /* height: 10rem; */
+  
+}
+
+.footer{
+    background-color: black;
+    height: 18rem;
+}
+
+
+
+a{
+    /* display: flex; */
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box2{
+    /* border: 2px solid rgb(243, 237, 237); */
+    width: 38%;
+    height: 13rem;
+    float:left;
+    margin: 5px;
+    margin-left: 70px;
+
+
+    
+    
+}
+.form-group{
+    padding: 9px;
+}
+
+
+
+
+
+
+
+

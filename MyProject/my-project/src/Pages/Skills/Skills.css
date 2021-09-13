@@ -1,0 +1,66 @@
+.Skills{
+    background-color: rgb(245, 236, 236);
+    /* border: 2px solid black; */
+}
+
+
+.Skills-box{
+    display: inline-block;
+    background-color: rgb(250, 229, 196);
+   /* border: 2px solid black; */
+   /* border-radius: 65px; */
+   border-top-left-radius:158px ;
+   border-bottom-right-radius: 158px;
+   
+   /* padding: 4px;
+   margin: 10px; */
+   width: 92%;
+   height: 26rem;
+   margin: 50px;
+   margin-top: 20px;
+   margin-left: 3.5rem;
+   margin-bottom: 47px;
+   
+}
+.skillbox{
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 10%;
+    height: 8rem;
+    margin: 48px;
+    margin-top: 10rem;
+    
+}
+
+
+.htmlimg{
+    width: auto;
+    height: 8rem;
+}
+.cssimg{
+    width: auto;
+    height: 8rem;
+}
+.jsimg{
+    width: auto;
+    height: 9rem;
+}
+.reactimg{
+    width: auto;
+    height: 8rem;
+}
+
+.javaimg{
+    width: auto;
+    height: 8rem;
+}
+
+
+.skill-head{
+
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-top: 27px;
+    
+}

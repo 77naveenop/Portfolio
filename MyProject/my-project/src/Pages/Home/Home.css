@@ -1,0 +1,35 @@
+*{
+    background: transparent;
+    
+}
+
+.home-page{
+    background-color: transparent;
+    background-color: rgb(250, 229, 196);
+   background-size: cover;
+   height: 45rem;
+   /* border-bottom-left-radius: 140px;
+   border-bottom-right-radius: 140px; */
+    
+}
+
+
+.head{
+    color: rgb(17, 17, 16);
+    text-align: center;
+    padding-top: 15rem;
+    /* padding-right: 48rem; */
+    /* font-family: 'Pacifico', cursive; */
+    text-transform:uppercase ;
+    text-shadow: 2px 2px white;
+  
+}
+
+
+
+
+
+
+
+
+
