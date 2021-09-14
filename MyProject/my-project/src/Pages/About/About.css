@@ -2,17 +2,19 @@
 
 
 
+
 .AboutBox{
     /* border: 2px solid black; */
     background-color: rgb(245, 240, 235);
+
 }
 .About{
     /* border: 2px solid red; */
-    margin: 20px;
-    background-color:rgb(226, 110, 110) ;
-    
+    margin: 68px;
+    background-color:rgb(232 208 181) ;
     border-bottom-left-radius: 158px;
     border-top-right-radius: 158px;
+    
 }
 .main-cardbox{
     /* border: 2px solid red; */
@@ -31,7 +33,7 @@
 .about-box1{
     display: inline;
     /* border: 2px solid black; */
-    height: 40rem;
+    height: 30rem;
     padding: 20px;
 
 }
@@ -52,13 +54,14 @@
 
 }
 
-.image{
+.Image{
     
     height: 15rem;
 }
 
 .card-text{
   display: inline-block;
+  
 }
 
 .jslogo{
@@ -111,4 +114,5 @@
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }

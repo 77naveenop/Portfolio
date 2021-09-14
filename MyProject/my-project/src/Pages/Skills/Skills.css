@@ -6,7 +6,7 @@
 
 .Skills-box{
     display: inline-block;
-    background-color: rgb(250, 229, 196);
+    background-color: rgb(232 208 181);
    /* border: 2px solid black; */
    /* border-radius: 65px; */
    border-top-left-radius:158px ;
@@ -15,11 +15,11 @@
    /* padding: 4px;
    margin: 10px; */
    width: 92%;
-   height: 26rem;
+   height: 35rem;
    margin: 50px;
-   margin-top: 20px;
+   margin-top: 68px;
    margin-left: 3.5rem;
-   margin-bottom: 47px;
+   margin-bottom: 68px;
    
 }
 .skillbox{
@@ -27,8 +27,8 @@
     /* border: 2px solid black; */
     width: 10%;
     height: 8rem;
-    margin: 48px;
-    margin-top: 10rem;
+    margin: 56px;
+    margin-top: 15rem;
     
 }
 
@@ -57,7 +57,7 @@
 
 
 .skill-head{
-
+    font-family: 'Roboto Condensed', sans-serif;
    text-align: center;
    text-transform: uppercase;
    font-weight: bold;

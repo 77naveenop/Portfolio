@@ -14,7 +14,7 @@ const About = () => {
                     <div className="main-cardbox">
                         <div className="card-box1">
                             <div class="card pic-card" >
-                                <img src={mypic} class="card-img-top image" alt="my pic" />
+                                <img src={mypic} class="card-img-top Image" alt="my pic" />
                                 <div class="card-body">
                                     <h5 class="card-title"></h5>
                                     <p class="card-text"><img className="jslogo" src={Jslogo} alt="" /> </p>
