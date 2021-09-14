@@ -25,7 +25,7 @@ const Contact = () => {
                                 Follow us
                             <div className="icons">
                                 <a href="https://www.facebook.com/naveen.shukla.123276/" target="_blank"><FacebookIcon className="facebook" /></a>
-                                <InstagramIcon className="ig-icon" />
+                               <a href="https://www.instagram.com/77naveen_official/" target="_blank" ><InstagramIcon className="ig-icon" /></a> 
                                 <a href="https://www.linkedin.com/in/navin-shukla-367725161/" target="_blank"><LinkedInIcon className="Ln-icon" /></a>
                             </div>
                             </h6>
@@ -55,11 +55,11 @@ const Contact = () => {
                     <div className="form-group">
                         <div class="mb-3 email-group">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter your e-mail" />
+                            <input type="email" class="form-control form-box" id="exampleFormControlInput1" placeholder="enter your e-mail" />
                         </div>
                         <div class="mb-3 textarea-group">
                             <label for="exampleFormControlTextarea1" class="form-label">Message us</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control msg-box" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <input class="btn btn-primary" type="submit" value="Submit" />
                     </div>

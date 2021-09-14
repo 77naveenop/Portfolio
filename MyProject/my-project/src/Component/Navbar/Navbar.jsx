@@ -1,32 +1,38 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+// import About from "../../Pages/About/About";
 import "./Navbar.css";
 
 
 
 
 const Navbar = () => {
+    
+
     return (
-    <div className="Navbar-box">
-        <div style={{ background: "transparent", position: "absolute", width: "100%", top: 0 }}>
-            <div style={{ background: "transparent" }}>
-                <div className="container pt-3 pb-2">
-                    <div className="row justify-content-between align-items-center">
-                        <div className=" col-auto text-white">
-                            <div className="row">
-                                <div className="col-auto"><span className="text">Home</span></div>
-                                <div className="col-auto"><span className="text">About</span></div>
-                                <div className="col-auto"><span className="text">Contact us</span></div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+        <div className="Navbar">
+            <ul  className="Nav-link">
+                <li className="li-item">
+                    <NavLink className="Nav" to="/">Home</NavLink>
+                </li>
+                <li className="li-item">
+                    <NavLink className="Nav" to="/About">About</NavLink>
+                </li>
+                <li className="li-item">
+                    <NavLink className="Nav" to="/Skills">Skills</NavLink>
+                </li>
+                {/* <li className="li-item">
+                    <NavLink className="Nav" to="/Contact">Contact</NavLink>
+                </li> */}
+            </ul>
         </div>
-</div>
+
 
 
     )
 }
 export default Navbar;
+    
+
+
+        
